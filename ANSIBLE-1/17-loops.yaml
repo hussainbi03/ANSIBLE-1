@@ -1,7 +1,7 @@
 - name: loops
   hosts: local
   connection: local
-  Become: yes
+  become: yes
   tasks:
   - name: install and uninstall packages
     ansible.builtin.package:
