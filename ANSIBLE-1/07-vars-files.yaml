@@ -1,7 +1,7 @@
 - name: print variables from another file
   hosts: local
   connection: local
-  var_files:
+  vars_files:
   - var.yaml
   tasks:
   - name: var files
