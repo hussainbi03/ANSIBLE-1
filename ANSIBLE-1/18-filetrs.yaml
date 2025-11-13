@@ -1,0 +1,12 @@
+- name: filters
+  hosts: local
+  connection: local
+  tasks:
+  - name: filters
+    ansible.builtin.debug:
+      msg: " name is {{ person | default('ramesh') }}"
+  - name: convert string to list
+    vars:
+      fruits: "apple, banana, orange"
+    ansible.builtin.debug:
+      msg: "fruits are {{ fruits | splict(',') }}"
