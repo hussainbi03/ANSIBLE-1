@@ -6,4 +6,4 @@
   tasks:
   - name: var files
     ansible.builtin.debug:
-      msg: "the cousre is {{ COURSE}} and trainer is {{ TRAINER}}"
+      msg: "the cousre is {{ COURSE }} and trainer is {{ TRAINER }}"
