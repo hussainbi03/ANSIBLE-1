@@ -18,4 +18,4 @@
   tasks:
   - name: course details
     ansible.builtin.debug:
-      msg: "hello, i am laerning {{ course_name }} which is having {{ Duration }} time the topics are {{ topics }}, is it live? : {{ live }}, tools covered are: {{ tools }}""
+      msg: "hello, i am laerning {{ course_name }} which is having {{ Duration }} time the topics are {{ topics }}, is it live? : {{ live }}, tools covered are: {{ tools }}"
